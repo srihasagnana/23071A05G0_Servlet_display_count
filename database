@@ -1,0 +1,10 @@
+create database studentdb;
+use studentdb;
+
+create table student(
+name varchar(10) not null,
+password varchar(15) not null);
+
+insert into student (name,password) values
+("siri","siri"),("gnanasrihasa","gnanasrihasa");
+
